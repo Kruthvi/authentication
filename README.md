@@ -85,25 +85,28 @@ After logging in, you will be redirected to the secrets page where you can view 
 ## Project Structure
 
 secrets-app/
--│
--├── public/
--│ ├── css/
--│ └── js/
--│
--├── views/
--│ ├── partials/
--│ │ ├── header.ejs
--│ │ └── footer.ejs
--│ ├── home.ejs
--│ ├── login.ejs
--│ ├── register.ejs
--│ ├── secrets.ejs
--│
--├── .env
--├── app.js
--├── package.json
--└── README.md
 
+│
+
+├── public/
+
+│ ├── css/
+
+│ └── js/
+│
+├── views/
+│ ├── partials/
+│ │ ├── header.ejs
+│ │ └── footer.ejs
+│ ├── home.ejs
+│ ├── login.ejs
+│ ├── register.ejs
+│ ├── secrets.ejs
+│
+├── .env
+├── app.js
+├── package.json
+└── README.md
 
 ## Code Explanation
 
