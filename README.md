@@ -84,6 +84,26 @@ After logging in, you will be redirected to the secrets page where you can view 
 
 ## Project Structure
 
+secrets-app/
+│
+├── public/
+│ ├── css/
+│ └── js/
+│
+├── views/
+│ ├── partials/
+│ │ ├── header.ejs
+│ │ └── footer.ejs
+│ ├── home.ejs
+│ ├── login.ejs
+│ ├── register.ejs
+│ ├── secrets.ejs
+│
+├── .env
+├── app.js
+├── package.json
+└── README.md
+
 
 ## Code Explanation
 
@@ -101,10 +121,6 @@ The `views` directory contains EJS templates for rendering the HTML pages.
 - **login.ejs**: The login page.
 - **register.ejs**: The registration page.
 - **secrets.ejs**: The secrets page, displayed after a successful login.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
 
