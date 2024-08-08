@@ -93,19 +93,33 @@ secrets-app/
 │ ├── css/
 
 │ └── js/
+
 │
+
 ├── views/
+
 │ ├── partials/
+
 │ │ ├── header.ejs
+
 │ │ └── footer.ejs
+
 │ ├── home.ejs
+
 │ ├── login.ejs
+
 │ ├── register.ejs
+
 │ ├── secrets.ejs
+
 │
+
 ├── .env
+
 ├── app.js
+
 ├── package.json
+
 └── README.md
 
 ## Code Explanation
